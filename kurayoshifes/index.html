@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>おいでよ倉吉の森</title>
+  </head>
+  <body id="Section-0">
+    <header>
+      <div class="top_main_header_tex">
+        <div class="top_main_header_tex_solid1"></div>
+        <div class="top_main_header_tex_solid2"></div>
+        <p class="top_main_header_tex_title1">UTSUBUKI<br />FES<br />2018</p>
+        <p class="top_main_header_tex_title2">8.4-8.5<br />鳥取県倉吉市</p>
+      </div>
+      <div class="top_main_header_centertex">
+        <p>打<br />吹<br />祭</p>
+      </div>
+      <div class="top_main_header_img">
+        <img src="./images/topkouho.jpeg" alt="TOP画像" />
+      </div>
+    </header>
+    <main>
+      <nav id="top_main_nav">
+        <ul id="now">
+          <li><a href="#Section-0">TOP</a></li>
+          <li><a href="#Section-1">はじめに</a></li>
+          <li><a href="#Section-2">No.1</a></li>
+          <li><a href="#Section-3">No.2</a></li>
+          <li><a href="#Section-4">No.3</a></li>
+          <li><a href="#Section-5">No.4</a></li>
+          <li><a href="#Section-6">まとめ</a></li>
+        </ul>
+      </nav>
+      <div class="top_main_column" id="Section-sm">
+        <div id="top_main_column_img"></div>
+        <div id="top_main_column_txt_wrap">
+          <div class="top_main_column_txt" id="Section-1">
+            <div class="top_main_column_txt_titlelabel_back" id="first">
+              <p>打吹祭とは</p>
+            </div>
+            <div class="top_main_column_txt_p_wrap">
+              <p>
+                毎年8月の初旬に鳥取県倉吉市で行われる市全体で行われる大きなお祭りである。<br />
+                &emsp;基本的どこも活気付くいい祭りで悪く言え
+                ばゲテモノ祭りである。
+              </p>
+            </div>
+          </div>
+
+          <div class="top_main_column_txt" id="Section-2">
+            <div class="top_main_column_txt_titlelabel">
+              <p>No.1:ちくわパフェ</p>
+            </div>
+            <div class="top_main_column_txt_p_wrap">
+              <p>
+                ゲテモノの中では割と有名。<br />
+                &emsp;竹輪以外はかき氷の上に様々なフルーツなどが乗ったとても美味いパフェです。<br />
+                &emsp;竹輪は添えるだけ。
+              </p>
+            </div>
+          </div>
+
+          <div class="top_main_column_txt" id="Section-3">
+            <div class="top_main_column_txt_titlelabel">
+              <p>No.2:ちくわ団子</p>
+            </div>
+            <div class="top_main_column_txt_p_wrap">
+              <p>
+                団子と何かを考えさせられる、竹輪の輪切りにみたらし団子を垂らした
+                ”だけ”のもの。<br />
+                &emsp;でも意外と竹輪の塩っけとみたらしは合うのかも…？<br />
+                &emsp;でも600円は高い。
+              </p>
+            </div>
+          </div>
+
+          <div class="top_main_column_txt" id="Section-4">
+            <div class="top_main_column_txt_titlelabel">
+              <p>No.3:ちくわ蕎麦</p>
+            </div>
+            <div class="top_main_column_txt_p_wrap">
+              <p>
+                蕎麦屋の意地。<br />
+                &emsp;ついに竹輪があっても無くても変わらない料理になってしまった。<br />
+                &emsp;竹輪は添えるだけ、値段も普通のそばと変わらなかったので、こっちを頼んだ方がお得かも。
+              </p>
+            </div>
+          </div>
+
+          <div class="top_main_column_txt" id="Section-5">
+            <div class="top_main_column_txt_titlelabel">
+              <p>No.4:ちくわ…？</p>
+            </div>
+            <div class="top_main_column_txt_p_wrap">
+              <p>
+                ゲテモノ。<br />
+                竹輪の穴の中には『チョコレート』『わさび』
+                が入って、それを丸々揚げたものである。<br />
+                &emsp;そもそも美味しくないと分かっているのに、祭りの後半には既に売り切れていた。<br />
+                &emsp;100円で楽しめるお手軽地獄でした（チャーハンは美味しかったです）
+              </p>
+            </div>
+          </div>
+
+          <div class="top_main_column_txt" id="Section-6">
+            <div class="top_main_column_txt_titlelabel">
+              <p>後書き~ちくわを添えて~</p>
+            </div>
+            <div class="top_main_column_txt_p_wrap">
+              <p>とても楽しかったです</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>こぴーらいと：うつぶきふぇすてぃばる</p>
+    </footer>
+  </body>
+  <script>
+    window.onscroll = function () {
+      var target = document.getElementById("top_main_nav");
+      var target2 = document.getElementById("top_main_column_img");
+      var target3 = document.getElementById("first");
+      // var target3 = getRuleBySelector(".top_main_column_txt_titlelabel");
+      if (window.innerHeight >= window.pageYOffset) {
+        target.style.position = "";
+        target.style.top = "";
+      } else if (window.innerHeight * 6 < window.pageYOffset) {
+      } else {
+        target.style.position = "fixed";
+        target.style.top = "0px";
+      }
+
+      if (window.innerWidth <= 600) {
+        if (window.innerHeight >= window.pageYOffset) {
+          target2.style.backgroundImage = "url('./images/topkouho2.jpg')";
+          target2.style.position = "sticky";
+          target2.style.top = "0px";
+          target3.className = "top_main_column_txt_titlelabel_back";
+        } else if (
+          window.innerHeight <= window.pageYOffset &&
+          window.innerHeight * 1.35 >= window.pageYOffset
+        ) {
+          //1ページ目
+          target3.className = "top_main_column_txt_titlelabel";
+        } else if (
+          window.innerHeight * 1.35 <= window.pageYOffset &&
+          window.innerHeight * 1.85 >= window.pageYOffset
+        ) {
+          //2ページ目
+          target2.style.backgroundImage = "url('./images/tikupa.jpg')";
+          target3.className = "top_main_column_txt_titlelabel";
+          target2.style.position = "sticky";
+          target2.style.top = "0px";
+        } else if (
+          window.innerHeight * 1.85 <= window.pageYOffset &&
+          window.innerHeight * 2.35 >= window.pageYOffset
+        ) {
+          //3ページ目
+          target2.style.backgroundImage = "url('./images/tikudan.jpg')";
+          target3.className = "top_main_column_txt_titlelabel";
+          target2.style.position = "sticky";
+          target2.style.top = "0px";
+        } else if (
+          window.innerHeight * 2.35 <= window.pageYOffset &&
+          window.innerHeight * 2.85 >= window.pageYOffset
+        ) {
+          //4ページ目
+          target2.style.backgroundImage = "url('./images/tikusoba.jpg')";
+          target3.className = "top_main_column_txt_titlelabel";
+          target2.style.position = "sticky";
+          target2.style.top = "0px";
+        } else if (
+          window.innerHeight * 2.85 <= window.pageYOffset &&
+          window.innerHeight * 3.35 >= window.pageYOffset
+        ) {
+          //5ページ目
+          target2.style.backgroundImage = "url('./images/akuma.jpg')";
+          target3.className = "top_main_column_txt_titlelabel";
+          target2.style.position = "sticky";
+          target2.style.top = "0px";
+        } else if (
+          window.innerHeight * 3.35 <= window.pageYOffset &&
+          window.innerHeight * 3.85 >= window.pageYOffset
+        ) {
+          //後書きページ
+          target2.style.backgroundImage = "url('./images/last.jpg')";
+          target3.className = "top_main_column_txt_titlelabel";
+          target2.style.position = "rerativ";
+          target2.style.top = "0px";
+        }
+      } else {
+        if (window.innerHeight * 1.5 >= window.pageYOffset) {
+          target2.style.backgroundImage = "url('./images/topkouho2.jpg')";
+          target2.style.position = "sticky";
+          target2.style.top = "0px";
+        } else if (
+          window.innerHeight * 1.5 <= window.pageYOffset &&
+          window.innerHeight * 2.5 >= window.pageYOffset
+        ) {
+          //2ページ目
+          target2.style.backgroundImage = "url('./images/tikupa.jpg')";
+          target2.style.position = "sticky";
+          target2.style.top = "0px";
+        } else if (
+          window.innerHeight * 2.5 <= window.pageYOffset &&
+          window.innerHeight * 3.5 >= window.pageYOffset
+        ) {
+          //3ページ目
+          target2.style.backgroundImage = "url('./images/tikudan.jpg')";
+          target2.style.position = "sticky";
+          target2.style.top = "0px";
+        } else if (
+          window.innerHeight * 3.5 <= window.pageYOffset &&
+          window.innerHeight * 4.5 >= window.pageYOffset
+        ) {
+          //4ページ目
+          target2.style.backgroundImage = "url('./images/tikusoba.jpg')";
+          target2.style.position = "sticky";
+          target2.style.top = "0px";
+        } else if (
+          window.innerHeight * 4.5 <= window.pageYOffset &&
+          window.innerHeight * 5.5 >= window.pageYOffset
+        ) {
+          //5ページ目
+          target2.style.backgroundImage = "url('./images/akuma.jpg')";
+          target2.style.position = "sticky";
+          target2.style.top = "0px";
+        } else if (
+          window.innerHeight * 5.5 <= window.pageYOffset &&
+          window.innerHeight * 6.5 >= window.pageYOffset
+        ) {
+          //後書きページ
+          target2.style.backgroundImage = "url('./images/last.jpg')";
+          target2.style.position = "sticky";
+          target2.style.top = "0px";
+        }
+      }
+    };
+  </script>
+</html>
